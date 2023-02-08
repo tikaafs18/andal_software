@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tika/Documents/Portfolio/TechnicalTest_Andal/ServerNET6/Server/Server.csproj": {}
+    "/Users/tika/Documents/Portfolio/TechnicalTest_Andal/ServerNET6/server/Server.csproj": {}
   },
   "projects": {
-    "/Users/tika/Documents/Portfolio/TechnicalTest_Andal/ServerNET6/Server/Server.csproj": {
+    "/Users/tika/Documents/Portfolio/TechnicalTest_Andal/ServerNET6/server/Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tika/Documents/Portfolio/TechnicalTest_Andal/ServerNET6/Server/Server.csproj",
+        "projectUniqueName": "/Users/tika/Documents/Portfolio/TechnicalTest_Andal/ServerNET6/server/Server.csproj",
         "projectName": "Server",
-        "projectPath": "/Users/tika/Documents/Portfolio/TechnicalTest_Andal/ServerNET6/Server/Server.csproj",
+        "projectPath": "/Users/tika/Documents/Portfolio/TechnicalTest_Andal/ServerNET6/server/Server.csproj",
         "packagesPath": "/Users/tika/.nuget/packages/",
-        "outputPath": "/Users/tika/Documents/Portfolio/TechnicalTest_Andal/ServerNET6/Server/obj/",
+        "outputPath": "/Users/tika/Documents/Portfolio/TechnicalTest_Andal/ServerNET6/server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tika/.nuget/NuGet/NuGet.Config"
