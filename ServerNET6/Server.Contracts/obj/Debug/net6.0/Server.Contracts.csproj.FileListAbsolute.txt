@@ -1,0 +1,12 @@
+/Users/tika/Documents/Portfolio/AndalNet/Server/Server/Server.Contracts/bin/Debug/net6.0/Server.Contracts.deps.json
+/Users/tika/Documents/Portfolio/AndalNet/Server/Server/Server.Contracts/bin/Debug/net6.0/Server.Contracts.dll
+/Users/tika/Documents/Portfolio/AndalNet/Server/Server/Server.Contracts/bin/Debug/net6.0/Server.Contracts.pdb
+/Users/tika/Documents/Portfolio/AndalNet/Server/Server/Server.Contracts/obj/Debug/net6.0/Server.Contracts.csproj.AssemblyReference.cache
+/Users/tika/Documents/Portfolio/AndalNet/Server/Server/Server.Contracts/obj/Debug/net6.0/Server.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tika/Documents/Portfolio/AndalNet/Server/Server/Server.Contracts/obj/Debug/net6.0/Server.Contracts.AssemblyInfoInputs.cache
+/Users/tika/Documents/Portfolio/AndalNet/Server/Server/Server.Contracts/obj/Debug/net6.0/Server.Contracts.AssemblyInfo.cs
+/Users/tika/Documents/Portfolio/AndalNet/Server/Server/Server.Contracts/obj/Debug/net6.0/Server.Contracts.csproj.CoreCompileInputs.cache
+/Users/tika/Documents/Portfolio/AndalNet/Server/Server/Server.Contracts/obj/Debug/net6.0/Server.Contracts.dll
+/Users/tika/Documents/Portfolio/AndalNet/Server/Server/Server.Contracts/obj/Debug/net6.0/refint/Server.Contracts.dll
+/Users/tika/Documents/Portfolio/AndalNet/Server/Server/Server.Contracts/obj/Debug/net6.0/Server.Contracts.pdb
+/Users/tika/Documents/Portfolio/AndalNet/Server/Server/Server.Contracts/obj/Debug/net6.0/ref/Server.Contracts.dll

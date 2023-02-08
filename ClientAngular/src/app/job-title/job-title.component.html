@@ -1,0 +1,51 @@
+<div style="margin: auto; width: 70%;">
+    <h2 class="mt-5">Job Title</h2>
+    <dx-button style="float: right; margin-bottom: 10px;" icon="add" (onClick)="addRow()"></dx-button>
+    <dx-data-grid style="display: inline-block;" #gridContainer id="gridContainer" width="auto" keyExpr="idtitle" edito [dataSource]="jobTitle" [showBorders]="true">
+        <dxi-column caption="Code" dataField="title_code" alignment="center" cssClass="middle-content" width="100"></dxi-column>
+        <dxi-column caption="Name" dataField="title_name" alignment="center" cssClass="middle-content"></dxi-column>
+        <dxi-column caption="Action" cellTemplate="actionBtn" alignment="center" width="100">
+            <div *dxTemplate="let t of 'actionBtn'" style="display: flex; gap: 10px;">
+                <dx-button hint="Save" [visible]='t.row.isEditing' icon="save" [disabled]="false"
+                    (onClick)="save(t.row.data)">
+                </dx-button>
+                <dx-button hint="Cancel" [visible]='t.row.isEditing' icon="undo" [disabled]="false"
+                    (onClick)="cancel()">
+                </dx-button>
+
+                <dx-button hint="Edit" [visible]="!t.row.isEditing" [disabled]="false" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" (click)="call(t.data)" icon="edit">
+                </dx-button>
+                <dx-button hint="Delete" [visible]="!t.row.isEditing " [disabled]="false" (onClick)='delete(t.data)'
+                    icon="remove">
+                </dx-button>
+            </div>
+        </dxi-column>
+    </dx-data-grid>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Job Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <label class="ps-4 mb-2">Job Title Code</label>
+                    <div class="input-group px-4 pb-4">
+                        <input type="text" class="form-control" placeholder="Enter job title" name="jobTitle"
+                            [(ngModel)]="editJobTitle.title_code">
+                    </div>
+                    <label class="ps-4 mb-2">Job Title Name</label>
+                    <div class="input-group px-4 pb-4">
+                        <input type="text" class="form-control" placeholder="Enter job title" name="jobTitle"
+                            [(ngModel)]="editJobTitle.title_name">
+                    </div>
+                    <button class="ms-4 btn btn-outline-success" type="button" data-bs-dismiss="modal"
+                        (click)="edit()">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

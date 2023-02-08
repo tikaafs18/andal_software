@@ -1,0 +1,48 @@
+GET http://localhost:3232/job/title
+
+###
+GET http://localhost:3232/job/position
+
+###
+DELETE http://localhost:3232/job/title/2
+
+###
+DELETE http://localhost:3232/job/position/3
+
+###
+PATCH  http://localhost:3232/job/position/1
+Content-Type: application/json
+
+{
+    "position_code":"COO",
+    "position_name":"Chief Operation Officer",
+    "title_id":1
+}
+
+###
+PATCH  http://localhost:3232/job/title/1
+Content-Type: application/json
+
+{
+    "title_code":"Manag",
+    "title_name":"Managerial"
+}
+
+###
+POST http://localhost:3232/job/title
+Content-Type: application/json
+
+{
+    "title_code":"Mkt",
+    "title_name":"Marketing" 
+}
+
+###
+POST http://localhost:3232/job/position
+Content-Type: application/json
+
+{
+    "title_id":4,
+    "position_code":"SM",
+    "position_name":"Solution Manager"
+}
